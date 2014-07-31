@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66B836F5198A7796001EA502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F4198A7796001EA502 /* Foundation.framework */; };
+		66B836F7198A7796001EA502 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F6198A7796001EA502 /* CoreGraphics.framework */; };
+		66B836F9198A7796001EA502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F8198A7796001EA502 /* UIKit.framework */; };
+		66B836FF198A7796001EA502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B836FD198A7796001EA502 /* InfoPlist.strings */; };
+		66B83701198A7796001EA502 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B83700198A7796001EA502 /* main.m */; };
+		66B83705198A7796001EA502 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B83704198A7796001EA502 /* AppDelegate.m */; };
+		66B83708198A7796001EA502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B83706198A7796001EA502 /* Main.storyboard */; };
+		66B8370B198A7796001EA502 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8370A198A7796001EA502 /* MasterViewController.m */; };
+		66B8370E198A7796001EA502 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8370D198A7796001EA502 /* DetailViewController.m */; };
+		66B83710198A7796001EA502 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B8370F198A7796001EA502 /* Images.xcassets */; };
+		66B83717198A7796001EA502 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B83716198A7796001EA502 /* XCTest.framework */; };
+		66B83718198A7797001EA502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F4198A7796001EA502 /* Foundation.framework */; };
+		66B83719198A7797001EA502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F8198A7796001EA502 /* UIKit.framework */; };
+		66B83721198A7797001EA502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B8371F198A7797001EA502 /* InfoPlist.strings */; };
+		66B83723198A7797001EA502 /* WheelyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B83722198A7797001EA502 /* WheelyTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66B8371A198A7797001EA502 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66B836E9198A7796001EA502 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66B836F0198A7796001EA502;
+			remoteInfo = Wheely;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66B836F1198A7796001EA502 /* Wheely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B836F4198A7796001EA502 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66B836F6198A7796001EA502 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66B836F8198A7796001EA502 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66B836FC198A7796001EA502 /* Wheely-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wheely-Info.plist"; sourceTree = "<group>"; };
+		66B836FE198A7796001EA502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66B83700198A7796001EA502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66B83702198A7796001EA502 /* Wheely-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wheely-Prefix.pch"; sourceTree = "<group>"; };
+		66B83703198A7796001EA502 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66B83704198A7796001EA502 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66B83707198A7796001EA502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66B83709198A7796001EA502 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		66B8370A198A7796001EA502 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		66B8370C198A7796001EA502 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		66B8370D198A7796001EA502 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		66B8370F198A7796001EA502 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		66B83715198A7796001EA502 /* WheelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B83716198A7796001EA502 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		66B8371E198A7797001EA502 /* WheelyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WheelyTests-Info.plist"; sourceTree = "<group>"; };
+		66B83720198A7797001EA502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66B83722198A7797001EA502 /* WheelyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelyTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66B836EE198A7796001EA502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B836F7198A7796001EA502 /* CoreGraphics.framework in Frameworks */,
+				66B836F9198A7796001EA502 /* UIKit.framework in Frameworks */,
+				66B836F5198A7796001EA502 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B83712198A7796001EA502 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B83717198A7796001EA502 /* XCTest.framework in Frameworks */,
+				66B83719198A7797001EA502 /* UIKit.framework in Frameworks */,
+				66B83718198A7797001EA502 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66B836E8198A7796001EA502 = {
+			isa = PBXGroup;
+			children = (
+				66B836FA198A7796001EA502 /* Wheely */,
+				66B8371C198A7797001EA502 /* WheelyTests */,
+				66B836F3198A7796001EA502 /* Frameworks */,
+				66B836F2198A7796001EA502 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66B836F2198A7796001EA502 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66B836F1198A7796001EA502 /* Wheely.app */,
+				66B83715198A7796001EA502 /* WheelyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66B836F3198A7796001EA502 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66B836F4198A7796001EA502 /* Foundation.framework */,
+				66B836F6198A7796001EA502 /* CoreGraphics.framework */,
+				66B836F8198A7796001EA502 /* UIKit.framework */,
+				66B83716198A7796001EA502 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66B836FA198A7796001EA502 /* Wheely */ = {
+			isa = PBXGroup;
+			children = (
+				66B83703198A7796001EA502 /* AppDelegate.h */,
+				66B83704198A7796001EA502 /* AppDelegate.m */,
+				66B83706198A7796001EA502 /* Main.storyboard */,
+				66B83709198A7796001EA502 /* MasterViewController.h */,
+				66B8370A198A7796001EA502 /* MasterViewController.m */,
+				66B8370C198A7796001EA502 /* DetailViewController.h */,
+				66B8370D198A7796001EA502 /* DetailViewController.m */,
+				66B8370F198A7796001EA502 /* Images.xcassets */,
+				66B836FB198A7796001EA502 /* Supporting Files */,
+			);
+			path = Wheely;
+			sourceTree = "<group>";
+		};
+		66B836FB198A7796001EA502 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66B836FC198A7796001EA502 /* Wheely-Info.plist */,
+				66B836FD198A7796001EA502 /* InfoPlist.strings */,
+				66B83700198A7796001EA502 /* main.m */,
+				66B83702198A7796001EA502 /* Wheely-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66B8371C198A7797001EA502 /* WheelyTests */ = {
+			isa = PBXGroup;
+			children = (
+				66B83722198A7797001EA502 /* WheelyTests.m */,
+				66B8371D198A7797001EA502 /* Supporting Files */,
+			);
+			path = WheelyTests;
+			sourceTree = "<group>";
+		};
+		66B8371D198A7797001EA502 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66B8371E198A7797001EA502 /* WheelyTests-Info.plist */,
+				66B8371F198A7797001EA502 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66B836F0198A7796001EA502 /* Wheely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B83726198A7797001EA502 /* Build configuration list for PBXNativeTarget "Wheely" */;
+			buildPhases = (
+				66B836ED198A7796001EA502 /* Sources */,
+				66B836EE198A7796001EA502 /* Frameworks */,
+				66B836EF198A7796001EA502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wheely;
+			productName = Wheely;
+			productReference = 66B836F1198A7796001EA502 /* Wheely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66B83714198A7796001EA502 /* WheelyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B83729198A7797001EA502 /* Build configuration list for PBXNativeTarget "WheelyTests" */;
+			buildPhases = (
+				66B83711198A7796001EA502 /* Sources */,
+				66B83712198A7796001EA502 /* Frameworks */,
+				66B83713198A7796001EA502 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B8371B198A7797001EA502 /* PBXTargetDependency */,
+			);
+			name = WheelyTests;
+			productName = WheelyTests;
+			productReference = 66B83715198A7796001EA502 /* WheelyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66B836E9198A7796001EA502 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = bespalown;
+				TargetAttributes = {
+					66B83714198A7796001EA502 = {
+						TestTargetID = 66B836F0198A7796001EA502;
+					};
+				};
+			};
+			buildConfigurationList = 66B836EC198A7796001EA502 /* Build configuration list for PBXProject "Wheely" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66B836E8198A7796001EA502;
+			productRefGroup = 66B836F2198A7796001EA502 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66B836F0198A7796001EA502 /* Wheely */,
+				66B83714198A7796001EA502 /* WheelyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66B836EF198A7796001EA502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B83710198A7796001EA502 /* Images.xcassets in Resources */,
+				66B836FF198A7796001EA502 /* InfoPlist.strings in Resources */,
+				66B83708198A7796001EA502 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B83713198A7796001EA502 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B83721198A7797001EA502 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66B836ED198A7796001EA502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B83705198A7796001EA502 /* AppDelegate.m in Sources */,
+				66B8370B198A7796001EA502 /* MasterViewController.m in Sources */,
+				66B83701198A7796001EA502 /* main.m in Sources */,
+				66B8370E198A7796001EA502 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B83711198A7796001EA502 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B83723198A7797001EA502 /* WheelyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66B8371B198A7797001EA502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66B836F0198A7796001EA502 /* Wheely */;
+			targetProxy = 66B8371A198A7797001EA502 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66B836FD198A7796001EA502 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B836FE198A7796001EA502 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		66B83706198A7796001EA502 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B83707198A7796001EA502 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66B8371F198A7797001EA502 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B83720198A7797001EA502 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66B83724198A7797001EA502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66B83725198A7797001EA502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66B83727198A7797001EA502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wheely/Wheely-Prefix.pch";
+				INFOPLIST_FILE = "Wheely/Wheely-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66B83728198A7797001EA502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wheely/Wheely-Prefix.pch";
+				INFOPLIST_FILE = "Wheely/Wheely-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		66B8372A198A7797001EA502 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wheely.app/Wheely";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wheely/Wheely-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WheelyTests/WheelyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		66B8372B198A7797001EA502 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wheely.app/Wheely";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wheely/Wheely-Prefix.pch";
+				INFOPLIST_FILE = "WheelyTests/WheelyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66B836EC198A7796001EA502 /* Build configuration list for PBXProject "Wheely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B83724198A7797001EA502 /* Debug */,
+				66B83725198A7797001EA502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B83726198A7797001EA502 /* Build configuration list for PBXNativeTarget "Wheely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B83727198A7797001EA502 /* Debug */,
+				66B83728198A7797001EA502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66B83729198A7797001EA502 /* Build configuration list for PBXNativeTarget "WheelyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B8372A198A7797001EA502 /* Debug */,
+				66B8372B198A7797001EA502 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66B836E9198A7796001EA502 /* Project object */;
+}
