@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38D30833F5CE4139B45F40B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F66297310B4F00B2D8BA35 /* libPods.a */; };
+		664CD509198B75C100F55059 /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = 664CD508198B75C100F55059 /* Master.m */; };
 		66B836F5198A7796001EA502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F4198A7796001EA502 /* Foundation.framework */; };
 		66B836F7198A7796001EA502 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F6198A7796001EA502 /* CoreGraphics.framework */; };
 		66B836F9198A7796001EA502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F8198A7796001EA502 /* UIKit.framework */; };
@@ -22,6 +24,10 @@
 		66B83719198A7797001EA502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F8198A7796001EA502 /* UIKit.framework */; };
 		66B83721198A7797001EA502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B8371F198A7797001EA502 /* InfoPlist.strings */; };
 		66B83723198A7797001EA502 /* WheelyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B83722198A7797001EA502 /* WheelyTests.m */; };
+		66B8372E198A79A7001EA502 /* MasterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8372D198A79A7001EA502 /* MasterTableViewCell.m */; };
+		66B8373B198A96A8001EA502 /* WheelyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8373A198A96A8001EA502 /* WheelyData.m */; };
+		66B8373E198A9930001EA502 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8373D198A9930001EA502 /* Manager.m */; };
+		66B83743198A99AC001EA502 /* WheelyDataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B83742198A99AC001EA502 /* WheelyDataFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00F66297310B4F00B2D8BA35 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		664CD507198B75C100F55059 /* Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
+		664CD508198B75C100F55059 /* Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
 		66B836F1198A7796001EA502 /* Wheely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B836F4198A7796001EA502 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66B836F6198A7796001EA502 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,6 +65,15 @@
 		66B8371E198A7797001EA502 /* WheelyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WheelyTests-Info.plist"; sourceTree = "<group>"; };
 		66B83720198A7797001EA502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66B83722198A7797001EA502 /* WheelyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelyTests.m; sourceTree = "<group>"; };
+		66B8372C198A79A7001EA502 /* MasterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableViewCell.h; sourceTree = "<group>"; };
+		66B8372D198A79A7001EA502 /* MasterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewCell.m; sourceTree = "<group>"; };
+		66B83739198A96A8001EA502 /* WheelyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WheelyData.h; path = Models/WheelyData.h; sourceTree = "<group>"; };
+		66B8373A198A96A8001EA502 /* WheelyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WheelyData.m; path = Models/WheelyData.m; sourceTree = "<group>"; };
+		66B8373C198A9930001EA502 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Manager.h; path = Manager/Manager.h; sourceTree = "<group>"; };
+		66B8373D198A9930001EA502 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Manager.m; path = Manager/Manager.m; sourceTree = "<group>"; };
+		66B83741198A99AB001EA502 /* WheelyDataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WheelyDataFactory.h; path = Factory/WheelyDataFactory.h; sourceTree = "<group>"; };
+		66B83742198A99AC001EA502 /* WheelyDataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WheelyDataFactory.m; path = Factory/WheelyDataFactory.m; sourceTree = "<group>"; };
+		977FD23E6BDE4DE4A5B063A5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +84,7 @@
 				66B836F7198A7796001EA502 /* CoreGraphics.framework in Frameworks */,
 				66B836F9198A7796001EA502 /* UIKit.framework in Frameworks */,
 				66B836F5198A7796001EA502 /* Foundation.framework in Frameworks */,
+				38D30833F5CE4139B45F40B7 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,10 +104,14 @@
 		66B836E8198A7796001EA502 = {
 			isa = PBXGroup;
 			children = (
+				66B83740198A9983001EA502 /* Factory */,
+				66B8373F198A9935001EA502 /* Manager */,
+				66B83738198A968B001EA502 /* Models */,
 				66B836FA198A7796001EA502 /* Wheely */,
 				66B8371C198A7797001EA502 /* WheelyTests */,
 				66B836F3198A7796001EA502 /* Frameworks */,
 				66B836F2198A7796001EA502 /* Products */,
+				977FD23E6BDE4DE4A5B063A5 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +131,7 @@
 				66B836F6198A7796001EA502 /* CoreGraphics.framework */,
 				66B836F8198A7796001EA502 /* UIKit.framework */,
 				66B83716198A7796001EA502 /* XCTest.framework */,
+				00F66297310B4F00B2D8BA35 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,8 +142,12 @@
 				66B83703198A7796001EA502 /* AppDelegate.h */,
 				66B83704198A7796001EA502 /* AppDelegate.m */,
 				66B83706198A7796001EA502 /* Main.storyboard */,
+				664CD507198B75C100F55059 /* Master.h */,
+				664CD508198B75C100F55059 /* Master.m */,
 				66B83709198A7796001EA502 /* MasterViewController.h */,
 				66B8370A198A7796001EA502 /* MasterViewController.m */,
+				66B8372C198A79A7001EA502 /* MasterTableViewCell.h */,
+				66B8372D198A79A7001EA502 /* MasterTableViewCell.m */,
 				66B8370C198A7796001EA502 /* DetailViewController.h */,
 				66B8370D198A7796001EA502 /* DetailViewController.m */,
 				66B8370F198A7796001EA502 /* Images.xcassets */,
@@ -157,6 +185,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		66B83738198A968B001EA502 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66B83739198A96A8001EA502 /* WheelyData.h */,
+				66B8373A198A96A8001EA502 /* WheelyData.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		66B8373F198A9935001EA502 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				66B8373C198A9930001EA502 /* Manager.h */,
+				66B8373D198A9930001EA502 /* Manager.m */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		66B83740198A9983001EA502 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				66B83741198A99AB001EA502 /* WheelyDataFactory.h */,
+				66B83742198A99AC001EA502 /* WheelyDataFactory.m */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66B83726198A7797001EA502 /* Build configuration list for PBXNativeTarget "Wheely" */;
 			buildPhases = (
+				D6BBA9E75F26450E9E5F099B /* Check Pods Manifest.lock */,
 				66B836ED198A7796001EA502 /* Sources */,
 				66B836EE198A7796001EA502 /* Frameworks */,
 				66B836EF198A7796001EA502 /* Resources */,
+				00EA7099F3FE4CAC897D6FA4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -249,6 +306,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00EA7099F3FE4CAC897D6FA4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6BBA9E75F26450E9E5F099B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66B836ED198A7796001EA502 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -257,7 +347,12 @@
 				66B83705198A7796001EA502 /* AppDelegate.m in Sources */,
 				66B8370B198A7796001EA502 /* MasterViewController.m in Sources */,
 				66B83701198A7796001EA502 /* main.m in Sources */,
+				66B8373B198A96A8001EA502 /* WheelyData.m in Sources */,
+				66B83743198A99AC001EA502 /* WheelyDataFactory.m in Sources */,
+				66B8372E198A79A7001EA502 /* MasterTableViewCell.m in Sources */,
 				66B8370E198A7796001EA502 /* DetailViewController.m in Sources */,
+				66B8373E198A9930001EA502 /* Manager.m in Sources */,
+				664CD509198B75C100F55059 /* Master.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +474,7 @@
 		};
 		66B83727198A7797001EA502 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977FD23E6BDE4DE4A5B063A5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -392,6 +488,7 @@
 		};
 		66B83728198A7797001EA502 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977FD23E6BDE4DE4A5B063A5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -462,6 +559,7 @@
 				66B83728198A7797001EA502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66B83729198A7797001EA502 /* Build configuration list for PBXNativeTarget "WheelyTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +568,7 @@
 				66B8372B198A7797001EA502 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

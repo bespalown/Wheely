@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "WheelyData.h"
 
 @interface DetailViewController ()
 - (void)configureView;
@@ -31,7 +32,11 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        WheelyData* wheelyData = self.detailItem;
+        
+        self.navigationItem.title = _titleLabel.text = wheelyData.title;
+        _textLabel.text = wheelyData.text;
+        _textLabel.contentMode = UIViewContentModeTop;
     }
 }
 

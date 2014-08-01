@@ -1,0 +1,16 @@
+PODS:
+  - AFNetworking (1.3.3)
+  - EasyMapping (0.5.7)
+  - MBProgressHUD (0.8)
+
+DEPENDENCIES:
+  - AFNetworking (< 2.0, = 1.3.3)
+  - EasyMapping (~> 0.5.3)
+  - MBProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: 5f5b2a731d6fc2082b8abc63d40fcaed5482c42f
+  EasyMapping: 209c65e47230ca3281d33a73d57706d6da8c875c
+  MBProgressHUD: c356980b0cd097f19acec959b49dca5eb8ec31be
+
+COCOAPODS: 0.33.1
