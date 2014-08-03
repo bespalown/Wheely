@@ -6,18 +6,18 @@
 //  Copyright (c) 2014 bespalown. All rights reserved.
 //
 
-#import "DetailViewController.h"
-#import "WheelyData.h"
+#import "VBDetailVC.h"
 
-@interface DetailViewController ()
+
+@interface VBDetailVC ()
 - (void)configureView;
 @end
 
-@implementation DetailViewController
+@implementation VBDetailVC
 
 #pragma mark - Managing the detail item
 
-- (void)setDetailItem:(id)newDetailItem
+- (void)setDetailItem:(VBWheelyData *)newDetailItem
 {
     if (_detailItem != newDetailItem) {
         _detailItem = newDetailItem;
@@ -32,7 +32,7 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        WheelyData* wheelyData = self.detailItem;
+        VBWheelyData* wheelyData = self.detailItem;
         
         self.navigationItem.title = _titleLabel.text = wheelyData.title;
         _textLabel.text = wheelyData.text;

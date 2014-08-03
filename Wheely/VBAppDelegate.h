@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Manager.h"
+#import "VBManager.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface VBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (nonatomic, strong) Manager* manager;
+@property (nonatomic, strong) VBManager* vbManager;
 
 @end

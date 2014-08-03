@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "MBProgressHUD.h"
-#import "WheelyData.h"
+#import "VBWheelyData.h"
 
-@interface Master : UITableViewController
+@interface VBMaster : UITableViewController
 {
-    AppDelegate* appDelegate;
+    VBAppDelegate* appDelegate;
     BOOL isNetworkActivityVisible;
 }
 

@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "EasyMapping.h"
-#import "WheelyData.h"
+#import "VBWheelyData.h"
 
-@interface WheelyDataFactory : NSObject
+@interface VBWheelyDataFactory : NSObject
 
 + (EKObjectMapping*) wheelyFactory;
 

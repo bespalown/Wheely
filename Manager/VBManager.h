@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Manager : NSObject
+@interface VBManager : NSObject
 
 - (void)getWheelyData:(void (^) (NSArray* array)) block
             failBlock:(void (^) (NSException *exception)) blockException;

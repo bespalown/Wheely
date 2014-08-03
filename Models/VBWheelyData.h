@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface WheelyData : NSObject
+@interface VBWheelyData : NSObject
 
 @property (nonatomic, assign) NSUInteger id;
 @property (nonatomic, strong) NSString* title;

@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 bespalown. All rights reserved.
 //
 
-#import "WheelyData.h"
+#import "VBWheelyData.h"
 
-@implementation WheelyData
+@implementation VBWheelyData
 
 @end

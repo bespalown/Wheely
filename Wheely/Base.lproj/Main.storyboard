@@ -19,16 +19,16 @@
             </objects>
             <point key="canvasLocation" x="-1" y="64"/>
         </scene>
-        <!--Master View Controller - Master-->
+        <!--MasterVC - Master-->
         <scene sceneID="VgW-fR-Quf">
             <objects>
-                <tableViewController title="Master" id="pGg-6v-bdr" customClass="MasterViewController" sceneMemberID="viewController">
+                <tableViewController title="Master" id="pGg-6v-bdr" customClass="VBMasterVC" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="61" sectionHeaderHeight="22" sectionFooterHeight="22" id="mLL-gJ-YKr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="61" id="m0d-ak-lc9" customClass="MasterTableViewCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="61" id="m0d-ak-lc9" customClass="VBMasterTableViewCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="61"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m0d-ak-lc9" id="d3P-M7-ByW">
@@ -82,10 +82,10 @@
             </objects>
             <point key="canvasLocation" x="459" y="64"/>
         </scene>
-        <!--Detail View Controller - Detail-->
+        <!--DetailVC - Detail-->
         <scene sceneID="Cn3-H9-jdl">
             <objects>
-                <viewController title="Detail" id="Ah7-4n-0Wa" customClass="DetailViewController" sceneMemberID="viewController">
+                <viewController title="Detail" id="Ah7-4n-0Wa" customClass="VBDetailVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cIm-e0-J51"/>
                         <viewControllerLayoutGuide type="bottom" id="a0L-h9-sNL"/>
@@ -132,11 +132,10 @@
                         <constraints>
                             <constraint firstItem="b2i-1H-fnT" firstAttribute="top" secondItem="cIm-e0-J51" secondAttribute="bottom" constant="19" id="35g-gi-Zca"/>
                             <constraint firstItem="XXS-Tm-F5S" firstAttribute="top" secondItem="b2i-1H-fnT" secondAttribute="bottom" constant="3" id="9T6-jq-hnw"/>
-                            <constraint firstItem="0R7-HB-8kh" firstAttribute="leading" secondItem="mcs-64-JLZ" secondAttribute="trailing" constant="9" id="Au5-a3-Ntw"/>
-                            <constraint firstItem="0R7-HB-8kh" firstAttribute="top" secondItem="XXS-Tm-F5S" secondAttribute="bottom" constant="4" id="Gf7-Ra-Df5"/>
+                            <constraint firstAttribute="trailing" secondItem="0R7-HB-8kh" secondAttribute="trailing" constant="20" id="CIt-fR-eeI"/>
+                            <constraint firstItem="0R7-HB-8kh" firstAttribute="top" secondItem="XXS-Tm-F5S" secondAttribute="bottom" constant="4" id="GxF-Hr-i5m"/>
                             <constraint firstItem="Lei-5M-9Gs" firstAttribute="top" secondItem="cIm-e0-J51" secondAttribute="bottom" constant="19" id="Pr1-8g-o5a"/>
                             <constraint firstItem="XXS-Tm-F5S" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" id="Qrf-wa-PgC"/>
-                            <constraint firstAttribute="trailing" secondItem="0R7-HB-8kh" secondAttribute="trailing" constant="20" id="URt-xl-1ap"/>
                             <constraint firstItem="XXS-Tm-F5S" firstAttribute="top" secondItem="Lei-5M-9Gs" secondAttribute="bottom" constant="3" id="Yib-qf-eKm"/>
                             <constraint firstItem="Lei-5M-9Gs" firstAttribute="leading" secondItem="b2i-1H-fnT" secondAttribute="trailing" constant="8" id="ce2-3F-ez3"/>
                             <constraint firstItem="mcs-64-JLZ" firstAttribute="top" secondItem="b2i-1H-fnT" secondAttribute="bottom" constant="8" id="czk-8o-ya5"/>
@@ -144,6 +143,7 @@
                             <constraint firstAttribute="trailing" secondItem="XXS-Tm-F5S" secondAttribute="trailing" id="iON-ZO-ldA"/>
                             <constraint firstItem="b2i-1H-fnT" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" constant="20" id="lJB-LG-qHO"/>
                             <constraint firstItem="mcs-64-JLZ" firstAttribute="leading" secondItem="MMQ-IT-qOo" secondAttribute="leading" constant="20" id="o0x-mU-I1e"/>
+                            <constraint firstItem="0R7-HB-8kh" firstAttribute="leading" secondItem="mcs-64-JLZ" secondAttribute="trailing" constant="9" id="zaz-JO-rSx"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Detail" id="cra-N8-TIN">

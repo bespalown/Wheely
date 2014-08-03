@@ -6,14 +6,14 @@
 //  Copyright (c) 2014 bespalown. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "VBAppDelegate.h"
 
-@implementation AppDelegate
+@implementation VBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    _manager = [Manager new];
+    _vbManager = [VBManager new];
     return YES;
 }
 							

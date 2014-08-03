@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VBWheelyData.h"
 
-@interface DetailViewController : UIViewController
+@interface VBDetailVC : UIViewController
 
-@property (strong, nonatomic) id detailItem;
-
+@property (strong, nonatomic) VBWheelyData *detailItem;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *textLabel;
 

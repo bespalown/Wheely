@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 bespalown. All rights reserved.
 //
 
-#import "Master.h"
+#import "VBMaster.h"
 
-@interface Master ()
+@interface VBMaster ()
 
 @end
 
-@implementation Master
+@implementation VBMaster
 
 - (void)viewDidLoad
 {

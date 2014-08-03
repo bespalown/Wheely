@@ -8,26 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		38D30833F5CE4139B45F40B7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F66297310B4F00B2D8BA35 /* libPods.a */; };
-		664CD509198B75C100F55059 /* Master.m in Sources */ = {isa = PBXBuildFile; fileRef = 664CD508198B75C100F55059 /* Master.m */; };
+		664CD509198B75C100F55059 /* VBMaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 664CD508198B75C100F55059 /* VBMaster.m */; };
 		66B836F5198A7796001EA502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F4198A7796001EA502 /* Foundation.framework */; };
 		66B836F7198A7796001EA502 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F6198A7796001EA502 /* CoreGraphics.framework */; };
 		66B836F9198A7796001EA502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F8198A7796001EA502 /* UIKit.framework */; };
 		66B836FF198A7796001EA502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B836FD198A7796001EA502 /* InfoPlist.strings */; };
 		66B83701198A7796001EA502 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B83700198A7796001EA502 /* main.m */; };
-		66B83705198A7796001EA502 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B83704198A7796001EA502 /* AppDelegate.m */; };
+		66B83705198A7796001EA502 /* VBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B83704198A7796001EA502 /* VBAppDelegate.m */; };
 		66B83708198A7796001EA502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B83706198A7796001EA502 /* Main.storyboard */; };
-		66B8370B198A7796001EA502 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8370A198A7796001EA502 /* MasterViewController.m */; };
-		66B8370E198A7796001EA502 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8370D198A7796001EA502 /* DetailViewController.m */; };
+		66B8370B198A7796001EA502 /* VBMasterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8370A198A7796001EA502 /* VBMasterVC.m */; };
+		66B8370E198A7796001EA502 /* VBDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8370D198A7796001EA502 /* VBDetailVC.m */; };
 		66B83710198A7796001EA502 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B8370F198A7796001EA502 /* Images.xcassets */; };
 		66B83717198A7796001EA502 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B83716198A7796001EA502 /* XCTest.framework */; };
 		66B83718198A7797001EA502 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F4198A7796001EA502 /* Foundation.framework */; };
 		66B83719198A7797001EA502 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B836F8198A7796001EA502 /* UIKit.framework */; };
 		66B83721198A7797001EA502 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66B8371F198A7797001EA502 /* InfoPlist.strings */; };
 		66B83723198A7797001EA502 /* WheelyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B83722198A7797001EA502 /* WheelyTests.m */; };
-		66B8372E198A79A7001EA502 /* MasterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8372D198A79A7001EA502 /* MasterTableViewCell.m */; };
-		66B8373B198A96A8001EA502 /* WheelyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8373A198A96A8001EA502 /* WheelyData.m */; };
-		66B8373E198A9930001EA502 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8373D198A9930001EA502 /* Manager.m */; };
-		66B83743198A99AC001EA502 /* WheelyDataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B83742198A99AC001EA502 /* WheelyDataFactory.m */; };
+		66B8372E198A79A7001EA502 /* VBMasterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8372D198A79A7001EA502 /* VBMasterTableViewCell.m */; };
+		66B8373B198A96A8001EA502 /* VBWheelyData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8373A198A96A8001EA502 /* VBWheelyData.m */; };
+		66B8373E198A9930001EA502 /* VBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B8373D198A9930001EA502 /* VBManager.m */; };
+		66B83743198A99AC001EA502 /* VBWheelyDataFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B83742198A99AC001EA502 /* VBWheelyDataFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,8 @@
 
 /* Begin PBXFileReference section */
 		00F66297310B4F00B2D8BA35 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		664CD507198B75C100F55059 /* Master.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Master.h; sourceTree = "<group>"; };
-		664CD508198B75C100F55059 /* Master.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Master.m; sourceTree = "<group>"; };
+		664CD507198B75C100F55059 /* VBMaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBMaster.h; sourceTree = "<group>"; };
+		664CD508198B75C100F55059 /* VBMaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBMaster.m; sourceTree = "<group>"; };
 		66B836F1198A7796001EA502 /* Wheely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wheely.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B836F4198A7796001EA502 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66B836F6198A7796001EA502 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,27 +52,27 @@
 		66B836FE198A7796001EA502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66B83700198A7796001EA502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66B83702198A7796001EA502 /* Wheely-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wheely-Prefix.pch"; sourceTree = "<group>"; };
-		66B83703198A7796001EA502 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		66B83704198A7796001EA502 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66B83703198A7796001EA502 /* VBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBAppDelegate.h; sourceTree = "<group>"; };
+		66B83704198A7796001EA502 /* VBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBAppDelegate.m; sourceTree = "<group>"; };
 		66B83707198A7796001EA502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		66B83709198A7796001EA502 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		66B8370A198A7796001EA502 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		66B8370C198A7796001EA502 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		66B8370D198A7796001EA502 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		66B83709198A7796001EA502 /* VBMasterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBMasterVC.h; sourceTree = "<group>"; };
+		66B8370A198A7796001EA502 /* VBMasterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBMasterVC.m; sourceTree = "<group>"; };
+		66B8370C198A7796001EA502 /* VBDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBDetailVC.h; sourceTree = "<group>"; };
+		66B8370D198A7796001EA502 /* VBDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBDetailVC.m; sourceTree = "<group>"; };
 		66B8370F198A7796001EA502 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66B83715198A7796001EA502 /* WheelyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheelyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66B83716198A7796001EA502 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		66B8371E198A7797001EA502 /* WheelyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WheelyTests-Info.plist"; sourceTree = "<group>"; };
 		66B83720198A7797001EA502 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66B83722198A7797001EA502 /* WheelyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WheelyTests.m; sourceTree = "<group>"; };
-		66B8372C198A79A7001EA502 /* MasterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterTableViewCell.h; sourceTree = "<group>"; };
-		66B8372D198A79A7001EA502 /* MasterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterTableViewCell.m; sourceTree = "<group>"; };
-		66B83739198A96A8001EA502 /* WheelyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WheelyData.h; path = Models/WheelyData.h; sourceTree = "<group>"; };
-		66B8373A198A96A8001EA502 /* WheelyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WheelyData.m; path = Models/WheelyData.m; sourceTree = "<group>"; };
-		66B8373C198A9930001EA502 /* Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Manager.h; path = Manager/Manager.h; sourceTree = "<group>"; };
-		66B8373D198A9930001EA502 /* Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Manager.m; path = Manager/Manager.m; sourceTree = "<group>"; };
-		66B83741198A99AB001EA502 /* WheelyDataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WheelyDataFactory.h; path = Factory/WheelyDataFactory.h; sourceTree = "<group>"; };
-		66B83742198A99AC001EA502 /* WheelyDataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WheelyDataFactory.m; path = Factory/WheelyDataFactory.m; sourceTree = "<group>"; };
+		66B8372C198A79A7001EA502 /* VBMasterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBMasterTableViewCell.h; sourceTree = "<group>"; };
+		66B8372D198A79A7001EA502 /* VBMasterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBMasterTableViewCell.m; sourceTree = "<group>"; };
+		66B83739198A96A8001EA502 /* VBWheelyData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBWheelyData.h; path = Models/VBWheelyData.h; sourceTree = "<group>"; };
+		66B8373A198A96A8001EA502 /* VBWheelyData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VBWheelyData.m; path = Models/VBWheelyData.m; sourceTree = "<group>"; };
+		66B8373C198A9930001EA502 /* VBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBManager.h; path = Manager/VBManager.h; sourceTree = "<group>"; };
+		66B8373D198A9930001EA502 /* VBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VBManager.m; path = Manager/VBManager.m; sourceTree = "<group>"; };
+		66B83741198A99AB001EA502 /* VBWheelyDataFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBWheelyDataFactory.h; path = Factory/VBWheelyDataFactory.h; sourceTree = "<group>"; };
+		66B83742198A99AC001EA502 /* VBWheelyDataFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VBWheelyDataFactory.m; path = Factory/VBWheelyDataFactory.m; sourceTree = "<group>"; };
 		977FD23E6BDE4DE4A5B063A5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +101,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		664CD50A198BBA1900F55059 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				66B8370C198A7796001EA502 /* VBDetailVC.h */,
+				66B8370D198A7796001EA502 /* VBDetailVC.m */,
+			);
+			name = DetailVC;
+			sourceTree = "<group>";
+		};
+		664CD50B198BBA3000F55059 /* MasterVC */ = {
+			isa = PBXGroup;
+			children = (
+				664CD507198B75C100F55059 /* VBMaster.h */,
+				664CD508198B75C100F55059 /* VBMaster.m */,
+				66B83709198A7796001EA502 /* VBMasterVC.h */,
+				66B8370A198A7796001EA502 /* VBMasterVC.m */,
+				66B8372C198A79A7001EA502 /* VBMasterTableViewCell.h */,
+				66B8372D198A79A7001EA502 /* VBMasterTableViewCell.m */,
+			);
+			name = MasterVC;
+			sourceTree = "<group>";
+		};
 		66B836E8198A7796001EA502 = {
 			isa = PBXGroup;
 			children = (
@@ -139,17 +161,11 @@
 		66B836FA198A7796001EA502 /* Wheely */ = {
 			isa = PBXGroup;
 			children = (
-				66B83703198A7796001EA502 /* AppDelegate.h */,
-				66B83704198A7796001EA502 /* AppDelegate.m */,
+				66B83703198A7796001EA502 /* VBAppDelegate.h */,
+				66B83704198A7796001EA502 /* VBAppDelegate.m */,
 				66B83706198A7796001EA502 /* Main.storyboard */,
-				664CD507198B75C100F55059 /* Master.h */,
-				664CD508198B75C100F55059 /* Master.m */,
-				66B83709198A7796001EA502 /* MasterViewController.h */,
-				66B8370A198A7796001EA502 /* MasterViewController.m */,
-				66B8372C198A79A7001EA502 /* MasterTableViewCell.h */,
-				66B8372D198A79A7001EA502 /* MasterTableViewCell.m */,
-				66B8370C198A7796001EA502 /* DetailViewController.h */,
-				66B8370D198A7796001EA502 /* DetailViewController.m */,
+				664CD50B198BBA3000F55059 /* MasterVC */,
+				664CD50A198BBA1900F55059 /* DetailVC */,
 				66B8370F198A7796001EA502 /* Images.xcassets */,
 				66B836FB198A7796001EA502 /* Supporting Files */,
 			);
@@ -188,8 +204,8 @@
 		66B83738198A968B001EA502 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				66B83739198A96A8001EA502 /* WheelyData.h */,
-				66B8373A198A96A8001EA502 /* WheelyData.m */,
+				66B83739198A96A8001EA502 /* VBWheelyData.h */,
+				66B8373A198A96A8001EA502 /* VBWheelyData.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -197,8 +213,8 @@
 		66B8373F198A9935001EA502 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				66B8373C198A9930001EA502 /* Manager.h */,
-				66B8373D198A9930001EA502 /* Manager.m */,
+				66B8373C198A9930001EA502 /* VBManager.h */,
+				66B8373D198A9930001EA502 /* VBManager.m */,
 			);
 			name = Manager;
 			sourceTree = "<group>";
@@ -206,8 +222,8 @@
 		66B83740198A9983001EA502 /* Factory */ = {
 			isa = PBXGroup;
 			children = (
-				66B83741198A99AB001EA502 /* WheelyDataFactory.h */,
-				66B83742198A99AC001EA502 /* WheelyDataFactory.m */,
+				66B83741198A99AB001EA502 /* VBWheelyDataFactory.h */,
+				66B83742198A99AC001EA502 /* VBWheelyDataFactory.m */,
 			);
 			name = Factory;
 			sourceTree = "<group>";
@@ -344,15 +360,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66B83705198A7796001EA502 /* AppDelegate.m in Sources */,
-				66B8370B198A7796001EA502 /* MasterViewController.m in Sources */,
+				66B83705198A7796001EA502 /* VBAppDelegate.m in Sources */,
+				66B8370B198A7796001EA502 /* VBMasterVC.m in Sources */,
 				66B83701198A7796001EA502 /* main.m in Sources */,
-				66B8373B198A96A8001EA502 /* WheelyData.m in Sources */,
-				66B83743198A99AC001EA502 /* WheelyDataFactory.m in Sources */,
-				66B8372E198A79A7001EA502 /* MasterTableViewCell.m in Sources */,
-				66B8370E198A7796001EA502 /* DetailViewController.m in Sources */,
-				66B8373E198A9930001EA502 /* Manager.m in Sources */,
-				664CD509198B75C100F55059 /* Master.m in Sources */,
+				66B8373B198A96A8001EA502 /* VBWheelyData.m in Sources */,
+				66B83743198A99AC001EA502 /* VBWheelyDataFactory.m in Sources */,
+				66B8372E198A79A7001EA502 /* VBMasterTableViewCell.m in Sources */,
+				66B8370E198A7796001EA502 /* VBDetailVC.m in Sources */,
+				66B8373E198A9930001EA502 /* VBManager.m in Sources */,
+				664CD509198B75C100F55059 /* VBMaster.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

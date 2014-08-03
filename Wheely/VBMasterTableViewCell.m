@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 bespalown. All rights reserved.
 //
 
-#import "MasterTableViewCell.h"
+#import "VBMasterTableViewCell.h"
 
-@implementation MasterTableViewCell
+@implementation VBMasterTableViewCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

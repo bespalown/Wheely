@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Master.h"
+#import "VBMaster.h"
 
-@interface MasterViewController : Master
+@interface VBMasterVC : VBMaster
 
 @end

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterTableViewCell : UITableViewCell
+@interface VBMasterTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *header;
 @property (weak, nonatomic) IBOutlet UILabel *detail;
 
